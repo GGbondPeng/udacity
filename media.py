@@ -1,3 +1,4 @@
+# coding=utf-8
 import webbrowser
 class Movie():
     '''class for create movie obj'''

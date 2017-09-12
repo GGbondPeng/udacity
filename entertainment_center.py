@@ -1,10 +1,15 @@
+# coding=utf-8
 import fresh_tomatoes
 import media
 
 # list with movies info
 movie_lists = [
-            ["Alien:Covenant",'https://www.youtube.com/watch?v=svnAD0TApb8','https://upload.wikimedia.org/wikipedia/zh/thumb/4/48/Alien_Covenant_Poster.jpg/220px-Alien_Covenant_Poster.jpg'],
-            ["Pacific Rim",'https://www.youtube.com/watch?v=B7-EqMGOM4E','https://resizing.flixster.com/MIJJI53SxxKEU56ewWLh3ZeGDYg=/300x300/v1.bTsxMTE3MzkzMztqOzE3NDk5OzEyMDA7ODAwOzEyMDA']
+            ["Alien:Covenant",
+            'https://www.youtube.com/watch?v=svnAD0TApb8',
+            'https://upload.wikimedia.org/wikipedia/zh/thumb/4/48/Alien_Covenant_Poster.jpg/220px-Alien_Covenant_Poster.jpg'],
+            ["Pacific Rim",
+            'https://www.youtube.com/watch?v=B7-EqMGOM4E',
+            'https://resizing.flixster.com/MIJJI53SxxKEU56ewWLh3ZeGDYg=/300x300/v1.bTsxMTE3MzkzMztqOzE3NDk5OzEyMDA7ODAwOzEyMDA']
         ]
 movie_obj = [];
 for e in movie_lists:
